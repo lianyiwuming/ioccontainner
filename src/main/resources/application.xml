@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="user" class="learn.beans.User" init-method="getAge" scope="singleton" >
+        <constructor-arg name="name" value="ll" index="0"></constructor-arg>
+        <constructor-arg name="age"  value="122" index="1" type="int"></constructor-arg>
+
+
+
+
+    </bean>
+
+    <bean id="properties"></bean>
+
+</beans>
